@@ -1,0 +1,100 @@
+#Home{
+    position: relative;
+    height: 600px;
+}
+
+#content{
+    position: relative;
+    z-index: 1;
+    color: black;
+    text-align: center;
+    padding: 120px;
+    white-space: nowrap;
+}
+
+#content h2{
+    white-space: nowrap;
+    color: red;
+    font-size: 60px;
+}
+
+#content h2 b{
+    color: black;
+}
+
+#content h2 span{
+    color:black;
+}
+
+#content p{
+    color: royalblue;
+    font-size: 30px;
+}
+
+#content #typedtext{
+    color: orange;
+}
+
+#tsparticles{
+    position: absolute;
+    top: 0;
+    height: 600px;
+    width: 100%;
+    left: 0;
+    bottom: 100px;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+}
+
+#content .about{
+    margin-top: 1rem;
+    position: relative;
+    padding: 0.5rem 2rem;
+    border-radius: 4em;
+    transition: 0.5s;
+    color: blue;
+    background:white;
+    box-shadow: 0px 5px 10px;
+    text-decoration: none;
+}
+
+
+#content .about:hover{
+    background-color: white;
+    color: darkblue;
+    box-shadow: 0px 5px 10px;
+}
+
+#content #image{
+    position: relative;
+    max-width: 50rem;
+    height: auto;
+    size: 250rem;
+    z-index: 1;
+    border-radius: 25px;
+}
+
+#content #image:hover{
+    box-shadow: blue 0px 5px 10px;
+}
+
+#content .about span{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#content #social{
+    position: relative;
+}
+
+#content #social a{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){   
+    #tsparticles{
+        width: calc(100vw + 100vw);
+    }
+}

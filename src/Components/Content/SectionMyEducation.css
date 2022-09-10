@@ -1,0 +1,73 @@
+.Education{
+    position: relative fixed;
+    z-index: 1;
+    background-color: #A569BD;
+    height: 620px;
+}
+
+.Education #title{
+    align-items: center;
+    color: red;
+}
+
+.Education #title h2{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    font-family: Verdana;
+}
+
+.Education #content{
+    padding-top: 50px;
+}
+
+.Education #content #row{
+    border-radius: 10px;
+    border: 1px solid;
+    box-shadow: 0 5px 10px lightblue;
+    transition: all 0.3s ease-in-out;
+    background-color: whitesmoke;
+}
+
+.Education #content #row:hover{
+    position: relative;
+    box-shadow: 0 5px 10px navy;
+    transition: all 0.3s ease-in-out;
+}
+
+.Education #content #row .icon{
+    border-width: 20px;
+    width: 16rem;
+}
+
+.Education #content #row .info{ 
+    padding-right: 100px;   
+}
+
+.Education #content #row .info h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Education #content #row .info p{
+    font-size: 20px;
+    color: maroon;
+}
+
+.Education #content #row .info h4{
+    font-size: 20px;
+    color: orangered;
+}
+
+.Education #content #row .icon input{
+    display: block;
+    margin-right: auto;
+    width: 70%;
+    z-index: -1;
+}
+
+@media screen and (max-width: 600px){
+    .Education{
+        width: calc(100vw + 100vw);
+    }
+}

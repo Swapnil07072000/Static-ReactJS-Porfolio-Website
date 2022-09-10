@@ -1,0 +1,28 @@
+.Projects{
+    position: relative;
+    height: 600px;
+}
+
+.Projects #title{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.Projects #title h2{
+    color: cyan;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+.Projects #projectcard{
+    padding-top: 30px;
+    margin: 0 auto;
+    object-fit: cover;
+    width: 40%;
+}
+
+@media screen and (max-width: 600px) {
+    .Projects{
+        width: calc(100vw + 100vw);
+    }
+}

@@ -1,0 +1,53 @@
+#Contacts{
+    position: relative;
+    height: 600px;
+    background-color:#FDEDEC;   
+}
+
+.Contacts #title{
+    padding-top: 20px;
+    text-align: center;
+    color: darkblue;
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+
+.Contacts #content{
+    border-radius: 25px;
+    height: 27rem;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border-width: thick;
+}
+
+.Contacts #content #image{
+    height: 20rem;
+    width: auto;
+    z-index: -1;
+}
+
+.Contacts #content #vl{
+    border-left: 3px solid black;
+    height: 23rem;
+    position:absolute;
+    z-index: -1;
+}
+
+.Contacts #content div{
+    padding: 0.4rem;
+}
+
+.Contacts #content #txtarea{
+    resize: none;
+}
+
+.Contacts #content #form1{
+    z-index:0;
+}
+
+@media screen and (max-width: 600px) {
+    .Contacts{
+        width: calc(100vw + 100vw);
+    }
+}

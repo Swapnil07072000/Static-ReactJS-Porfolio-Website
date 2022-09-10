@@ -1,0 +1,85 @@
+.footer{
+    position: relative;
+    height: 300px;
+    background-color: navy;
+}
+
+.footer #title{
+    padding-top: 20px; 
+}
+
+.footer #title h2{
+    color: red;
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+.footer #title p{
+    color: yellow;
+}
+
+.footer #quicklinks h4{
+    padding-top: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+.footer #quicklinks ul{
+    color: yellow;
+}
+
+.footer #quicklinks ul li{
+    list-style: '> ';
+}
+
+.footer #contactinfo h4{
+    padding-top: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+.footer #contactinfo p{
+    text-align: left;
+    color: yellow;
+}
+
+.footer hr{
+    text-align: center;
+    clear: both;
+    color: white;
+    width: 90%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.footer #footericon{
+    text-align: center;
+}
+
+.footer #footericon #linkedin{
+    border-radius: 80px;
+    background-color:whitesmoke;
+}
+
+.footer #footericon #github{
+    border-radius: 99px;
+    background-color:whitesmoke;
+}
+
+.footer #copyright{
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .footer{
+        width: calc(100% + 100%);
+    }
+}
